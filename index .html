@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Rating</title>
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="app">
+        <section class="main-rating">
+            <div class="rating-img">
+                <img src="./images/icon-star.svg" alt="icon-star" class="img-rating">
+            </div>
+            <div class="info">
+                <h1 class="info-h1">
+                    How did we do ?
+                </h1>
+                <p class="info-para">
+                    Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
+                </p>
+            </div>
+            <div class="rate">
+                <ul>
+                    <li><button class="li-btn">1</button></li>
+                    <li><button class="li-btn">2</button></li>
+                    <li><button class="li-btn">3</button></li>
+                    <li><button class="li-btn">4</button></li>
+                    <li><button class="li-btn">5</button></li>
+                </ul>
+                <button class="rate-btn"> SUBMIT</button>
+            </div>
+        </section>
+        <section class="thank hidden">
+            <div class="thank-img">
+                <img src="./images/illustration-thank-you.svg" alt="thank-you" class="img-phone">
+            </div>
+            <div class="thank-info">
+                <p class="js-para">You selected <span id="rating">0</span> out of 5</p>
+                <h2 class="thanks-h2">Thank you!</h2>
+                <p class="thanks-para">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+            </div>
+        </section>
+        <footer class="foot">
+            Challenge by
+            <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+              >Frontend Mentor</a
+            >. Coded by <a href="http://karam-portfolio.liveblog365.com" target="_blank"> KARAM SINGH</a>
+          </footer>
+    </main>
+</body>
+<script src="./thank.js"></script>
+</html>
